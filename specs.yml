@@ -21,3 +21,4 @@ specs:
 
 receiver:
   class name: "HelloWorld"
+  handle: [twitter]
