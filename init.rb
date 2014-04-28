@@ -7,7 +7,7 @@ class HelloWorld
 
   def greet
     message = 'Hello sir, what can I do for you?'
-    options = { in_reply_to_status_id: @tweet_object.id  }
-    @twitter_client.update(message, options)
+    options = { in_reply_to_status: @tweet_object  }
+    @twitter_client.update("@#{@tweet_object.user.screen_name} #{message}", options)
   end
 end
