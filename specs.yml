@@ -7,7 +7,7 @@ author:
 
 specs:
   type: "receiver"
-  name: "HelloWorld-receiver"
+  name: "HelloWorld"
   version: "1.0.0"
   description: "Always ready to greet you!"
   keywords: [twitter, tweet, greet, hello, world]
