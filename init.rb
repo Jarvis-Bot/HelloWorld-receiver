@@ -2,7 +2,7 @@ class HelloWorld
   def initialize(args)
     @tweet_object = args[:object]
     @twitter_client = Jarvis::ThirdParty::Registered.client(:twitter)
-    greet
+    greet if @tweet_object.is_a? Twitter::Tweet
   end
 
   def greet
