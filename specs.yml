@@ -1,24 +1,32 @@
+---
 author:
-  name: "Victor Bersy"
-  mail: "victor.bersy@gmail.com"
+  name: Victor Bersy
   contacts:
-    github: "VictorBersy"
-    twitter: "VictorBersy"
-
+    email: victorbersy+jarvis@gmail.com
+    github: VictorBersy
+    twitter: VictorBersy
 specs:
-  type: "receiver"
-  name: "HelloWorld"
-  version: "1.0.0"
-  description: "Always ready to greet you!"
-  keywords: [twitter, tweet, greet, hello, world]
-  homepage: "https://github.com/Jarvis-Bot/HelloWorld-receiver"
+  name: HelloWorld
+  description: Always ready to greet you!
+  keywords:
+  - twitter
+  - tweet
+  - greet
+  - hello
+  - world
+  homepage: https://github.com/Jarvis-Bot/HelloWorld-receiver
+  version: 2.0.0
+  class_name: HelloWorld
+  type: receiver
   license:
-    type: "MIT"
-    url: "https://github.com/Jarvis-Bot/HelloWorld-receiver/LICENSE"
+    type: MIT
+    url: https://github.com/Jarvis-Bot/HelloWorld-receiver/LICENSE
   repository:
-    type: "git"
-    url: "https://github.com/Jarvis-Bot/HelloWorld-receiver.git"
-
+    type: git
+    url: https://github.com/Jarvis-Bot/HelloWorld-receiver.git
+  dependencies:
+    jarvis: "~> 2.0"
 receiver:
-  class name: "HelloWorld"
-  handle: [twitter]
+  handle:
+  - twitter
+  color_message: "#55ACEE"
