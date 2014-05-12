@@ -17,6 +17,6 @@ class HelloWorld
   end
 
   def match_hello?(text)
-    text.match(/\b(hello|hi|bonjour|hola|yo)\b/)
+    text.match(/\b(hello|hi|bonjour|hola|yo)\b/i)
   end
 end

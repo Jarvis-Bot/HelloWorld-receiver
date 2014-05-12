@@ -15,7 +15,7 @@ specs:
   - hello
   - world
   homepage: https://github.com/Jarvis-Bot/HelloWorld-receiver
-  version: 2.0.0
+  version: 2.0.1
   class_name: HelloWorld
   type: receiver
   license:
